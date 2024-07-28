@@ -1,0 +1,23 @@
+.custom-next, .custom-prev {
+    width: 44px;
+    height: 44px;
+    background-color: #007aff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.custom-next {
+    right: -10px;
+}
+
+.custom-prev {
+    left: -10px;
+}
